@@ -1,0 +1,75 @@
+body {
+	background: url("../img/book.jpg") no-repeat center center fixed;
+	background-size: cover;
+	}
+ 			
+.header {
+  background: rgba(0,0,0,0.2);
+  font-family: 'Neucha', cursive;
+}
+.header h1 {
+	display: inline;
+	color: #eff;
+	font-size: 60px;
+	margin-left: 25px;
+}
+.nav {
+  display: inline;
+}
+
+.nav li {
+  display: inline;
+  margin: 0px 10px 0 10px;
+  color: #fff;
+  font-size: 36px;
+}
+.nav .btn {
+	display: inline;
+	background: rgba(0,255,188,0.5);
+	font-size: 24px;
+	color: white;
+	padding:5px 7px;
+}
+.nav .btn:hover{
+	background-color: rgba(0,0,0,0.6);
+}
+.supporting {
+	font-family: 'Neucha', cursive;
+}
+.supporting .container {
+	margin: 0 0px 0 0px;
+}
+.supporting h1{
+	font-size: 40px;
+	color: white;
+	margin: 35px 0 0 50px;
+}
+.supporting span {
+	font-size: 52px;
+	color: rgba(0,255,188,0.5);
+}
+.supporting p{
+	font-size: 1.5em;
+	color: #fff;
+	margin: 20px 0 0 50px;
+}
+.supporting .row {
+	margin: 0px;
+}
+.col-md-4 {
+	padding: 10px 45px 0 45px;
+	color: white;
+}
+.form-group label {
+  display: block;
+}
+.form-group input {
+  width: 100%;
+}
+.supporting button {
+	font-size: 18px;
+  float: right;
+  margin-top: 20px;
+  background:rgba(0,240,190,0.5);
+  border-radius: 10px;
+}
